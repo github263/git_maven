@@ -4,7 +4,7 @@
   <groupId>com.maaven.practice</groupId>
   <artifactId>myapp</artifactId>
   <packaging>jar</packaging>
-  <version>1.0</version>
+  <version>1.0-snapshot</version>
   
   <dependencies>
     <dependency>
@@ -21,8 +21,8 @@
 			<url>http://192.168.33.30:8081/nexus/content/repositories/Jenkins-Nexus/</url>
 		</repository>
 		<snapshotRepository>
-			<id>Maven-snapshot</id>
-			<url>http://localhost:8081/nexus/content/repositories/Maven-snapshot/</url>
+			<id>Nexusbackup</id>
+			<url>http://192.168.33.30:8081/nexus/content/repositories/Nexusbackup/</url>
 		</snapshotRepository>		
   </distributionManagement>
 </project>
